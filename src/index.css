@@ -1,0 +1,72 @@
+#bckgrd {
+    background-color: #eae7d9;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#quote-box {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    padding: 1em;
+    border-radius: 0.3em;
+    top: 35%;
+    left: 25%;
+    background-color: #d2c6b2;
+    box-shadow: 0.35em 0.35em 0.20em #442727;
+}
+
+#text {
+    font-size: 25px;
+    color: #442727;
+    font-family: 'Comic Neue', cursive;
+}
+
+#author {
+    font-size: 23px;
+    position: relative;
+    top: 0.5em;
+    text-align: right;
+    color: #937d14;
+    font-family: 'Comic Neue', cursive;
+}
+
+#button-box {
+    position: absolute;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    bottom: 1em;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+button:hover {
+    box-shadow: 0.1em 0.1em 0.3em black;
+}
+
+@media only screen and (max-width: 600px) {
+  #quote-box {
+    width: 80%;
+    height: 40%;
+    left: 5%;
+    top: 30%;
+  }
+  #text {
+    font-size: 20px;
+  }
+  #author {
+    font-size: 18px;
+  }
+  #button-box {
+    width: 70%;
+  }
+}
